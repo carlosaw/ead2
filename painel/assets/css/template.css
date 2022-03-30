@@ -1,0 +1,202 @@
+body {
+	margin:0;
+	background-color:#333 ;
+	font-family:arial;
+	color: #FFF;
+}
+.container {
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+section {
+	max-width: 1400px;
+	flex: 1;
+}
+.form_login {
+	max-width:300px;
+	background-color:#DDD;
+	margin:auto;
+	margin-top:100px;
+	padding:30px;
+	border-radius:10px;
+	box-shadow:0 0 20px 1px rgb(165, 164, 164);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.inp_entrar {
+	width:100%;
+	padding:15px;
+	font-size:14px;
+	outline: none;
+	font-size: 18px;
+}
+.topo {
+	height:40px;
+	background-color:#000;
+	color:#FFF;
+	padding: 0px 20px;
+}
+.topo a {
+	color:#FFF;
+	text-decoration:none;
+}
+.topo a div {
+	float:left;
+	height:40px;
+	line-height:40px;
+	padding-right:20px;
+	padding-left:20px;
+}
+.topo a div:hover {
+	background-color:#555;
+}
+.add {
+	text-align:center;
+	margin-top:50px;
+}
+.form_addAluno {
+	width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.form_loginAdd {
+	width:300px;
+	height:280px;
+	background-color:#DDD;
+	margin:auto;
+	margin-top:50px;
+	padding:30px;
+	border-radius:10px;
+	outline: none;
+}
+.txtadd {
+	width:100%;
+	height:90px;
+	border: 0px;
+}
+.inp_add {
+	width:100%;
+	padding:10px;
+	margin-top:20px;
+	font-size:14px;
+	border: 0px;
+}
+.inp_add:hover  {
+	width:100%;
+	padding:10px;
+	margin-top:20px;
+	font-size:14px;
+	border: 0px;
+}
+.form_loginEdit {
+	width:350px;
+	height:425px;
+	background-color:#DDD;
+	margin:auto;
+	margin-top:50px;
+	padding:30px;
+	border-radius:10px;
+}
+.inp_edit {
+	width:100%;
+	padding:10px;
+	margin-top:10px;
+	font-size:14px;
+	border: 0px;
+}
+
+.btnAction {
+	display: flex;
+	justify-content: space-evenly;
+}
+.btn {
+	padding: 10px 15px;
+	background-color:forestgreen;
+	border-radius: 5px;
+	border: 0px;
+}
+.btn a {
+	text-decoration: none;
+	color: #FFF;
+}
+.b {
+	background-color: #4076ff;
+}
+.c {
+	background-color: rgb(238, 52, 52);
+}
+
+h2 {
+	margin-left:20px;
+}
+h4 {
+	background-color:#000;
+	padding-left:20px;
+	height:35px;
+	line-height:35px;
+	margin:0;
+}
+h5 {
+	padding-left:40px;
+	height:35px;
+	line-height:35px;
+	margin:0;
+}
+.txtaula {
+	width:230px;
+	height:100px;
+}
+.form_EditAluno {
+	width:280px;
+	height:450px;
+	background-color:#DDD;
+	margin:auto;
+	margin-top:50px;
+	padding:30px;
+	border-radius:10px;
+	box-shadow:0 0 20px 1px #000;
+}
+.slct {
+	min-width:280px;
+	height:140px;
+}
+.btnDelaluno :hover {
+	background-color:red;
+	color:white;
+}
+.btnEditaluno :hover {
+	background-color:green;
+	color:white;
+}
+.btnAddaluno :hover {
+	background-color:blue;
+	color:white;
+}
+.inp_add_aluno {
+	width:100%;
+	padding:12px;
+	margin-top:10px;
+	font-size:14px;
+	box-shadow:0 0 5px 1px #000;
+}
+
+table {
+	padding: 0px 30px;
+}
+.ptr img {
+	margin: 10px 0px;
+	height: 112px;
+	border: 1px solid #FFF;
+}
+.ptrname {
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
